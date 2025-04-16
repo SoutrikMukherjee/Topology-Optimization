@@ -30,8 +30,7 @@ This visualization shows how compliance (a measure of stiffness) evolves over 3 
 
 ### 🔍 Model Performance Visualization
 
-This graph shows how the deep learning model performs over 10 epochs.  
-It highlights both training and validation accuracy, indicating strong generalization.
+This graph shows how the deep learning model performs over 10 epochs. It highlights both training and validation accuracy, indicating strong generalization.
 
 <img width="646" alt="Screenshot 2025-04-15 at 9 53 44 PM" src="https://github.com/user-attachments/assets/48145140-c38c-4122-bce9-64b278565bed" />
 
@@ -39,8 +38,7 @@ It highlights both training and validation accuracy, indicating strong generaliz
 
 ### 🧮 Force Distribution and Solver Output
 
-This plot visualizes the applied forces at each node in a finite element setup.  
-Despite correctly defining the force vector and stiffness matrix, the Conjugate Gradient Method failed to converge, resulting in `nan` displacements.
+This plot visualizes the applied forces at each node in a finite element setup.  Despite correctly defining the force vector and stiffness matrix, the Conjugate Gradient Method failed to converge, resulting in `nan` displacements.
 
 This failure is often caused by:
 - Singular or ill-conditioned stiffness matrices  
@@ -54,9 +52,11 @@ This failure is often caused by:
 These heatmaps show the stiffness matrix 𝐾 used in finite element analysis. Each cell represents the interaction between node pairs: 
 — Red indicates strong stiffness, blue indicates negative coupling, and gray indicates no interaction.
 — The small matrix highlights symmetry and sparsity in a 4-node system
+
 <img width="688" alt="Screenshot 2025-04-15 at 9 53 09 PM" src="https://github.com/user-attachments/assets/87f7b613-4083-4c9a-a953-2622198ba84b" />
 
 — The large matrix captures a 100-node structure with dense diagonal dominance
+
 <img width="610" alt="Screenshot 2025-04-15 at 9 45 55 PM" src="https://github.com/user-attachments/assets/ed5a51ff-f939-48a0-83ee-1e172cbc571c" />
 
 ---
