@@ -50,12 +50,17 @@ This failure is often caused by:
 ---
 ### 🧱 Stiffness Matrix Visualization
 These heatmaps show the stiffness matrix 𝐾 used in finite element analysis. Each cell represents the interaction between node pairs: 
+
 — Red indicates strong stiffness, blue indicates negative coupling, and gray indicates no interaction.
+
 — The small matrix highlights symmetry and sparsity in a 4-node system
+
 
 <img width="688" alt="Screenshot 2025-04-15 at 9 53 09 PM" src="https://github.com/user-attachments/assets/87f7b613-4083-4c9a-a953-2622198ba84b" />
 
+
 — The large matrix captures a 100-node structure with dense diagonal dominance
+
 
 <img width="610" alt="Screenshot 2025-04-15 at 9 45 55 PM" src="https://github.com/user-attachments/assets/ed5a51ff-f939-48a0-83ee-1e172cbc571c" />
 
